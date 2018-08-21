@@ -1,7 +1,7 @@
 class Task {
   final String title, description;
   final bool status;
-  final num id;
+  final dynamic id;
 
   const Task({this.title, this.description, this.status, this.id});
 }
